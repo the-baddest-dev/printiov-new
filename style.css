@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+  /* font-family: "DM Serif Display", serif; */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.section-width{
+  max-width: 1527px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-container{
+  border: 2px solid #f7f6f4;
+  background-color: #f7f6f4;
+  display: flex;
+  padding: 12px 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-child:nth-child(1){
+  display: flex;
+  gap: 30px;
+  /* border: 2px solid red; */
+}
+
+.nav-child:nth-child(1) a{
+  text-decoration: none;
+  color: #506683;
+  font-size: 12.9px;
+  font-weight: 600;
+}
+
+.nav-child:nth-child(2){
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-three{
+  display: flex;
+  /* border: 2px solid pink; */
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-text-up span:nth-child(1){
+  color: #506683;
+  font-size: 12.9px;
+  font-weight: 600;
+}
+
+.nav-text-down a:nth-child(1),
+.nav-text-down a:nth-child(3){
+  font-size: 12.9px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+.nav-text-down span:nth-child(2){
+  color: #506683;
+  font-size: 12.9px;
+  font-weight: 600;
+}
+
+.nav-nigeria,
+.nav-uk{
+  display: flex;
+  gap: 9px;
+  border: 1px solid #cbcac8;
+  border-radius: 20px;
+  padding: 8px 12px;
+}
+
+.nav-nigeria a,
+.nav-uk a{
+  text-decoration: none;
+  font-size: 12.9px;
+  font-weight: 600;
+  color: #506683;
+}
+
+
