@@ -1,4 +1,13 @@
 @media screen and (max-width: 480px) {
+
+  /* body{
+    overflow: hidden;
+  } */
+
+  .nav-container{
+    justify-content: flex-start;
+  }
+
   .nav-child:nth-child(1) {
     display: none;
   }
@@ -8,11 +17,10 @@
     display: none;
   }
 
-  /* Everything is working */
-
   .nav-container {
-    padding: 12px 22px;
+    padding: 10px 0px 10px 18px;
     border: 2px solid green;
+    width: 100%;
   }
 
   /* .nav-child:nth-child(2) {
@@ -35,7 +43,7 @@
   }
 
   .nav-child:nth-child(2) {
-    gap: 45px;
+    gap: 50px;
   }
 
   .nav-text-down {
