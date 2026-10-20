@@ -4,10 +4,6 @@
     overflow: hidden;
   } */
 
-  .nav-container{
-    justify-content: flex-start;
-  }
-
   .nav-child:nth-child(1) {
     display: none;
   }
@@ -18,8 +14,9 @@
   }
 
   .nav-container {
-    padding: 10px 0px 10px 15px;
-    border: 2px solid green;
+    padding: 12px 20px;
+    display: flex;
+    /* border: 2px solid green; */
     width: 100%;
   }
 
@@ -29,7 +26,7 @@
 
   .nav-three {
     /* border: 2px solid salmon; */
-    gap: 30px;
+    gap: 40px;
     flex-shrink: 0;
   }
 
@@ -43,7 +40,9 @@
   }
 
   .nav-child:nth-child(2) {
-    gap: 50px;
+    gap: 0px;
+    flex: 1;
+    justify-content: space-between;
   }
 
   .nav-text-down {

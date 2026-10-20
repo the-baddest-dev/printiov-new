@@ -27,6 +27,7 @@ body{
   background-color: #f7f6f4;
   display: flex;
   padding: 12px 120px;
+  /* padding: 12px 120px 12px 120px; */
   justify-content: space-between;
   align-items: center;
 }
@@ -83,8 +84,16 @@ body{
   font-weight: 600;
 }
 
-.nav-nigeria,
 .nav-uk{
+  /* border: 2px solid blue; */
+  display: flex;
+  gap: 9px;
+  border: 1px solid #cbcac8;
+  border-radius: 20px;
+  padding: 8px 12px;
+}
+
+.nav-nigeria{
   display: flex;
   gap: 9px;
   border: 1px solid #cbcac8;
