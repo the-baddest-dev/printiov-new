@@ -11,8 +11,8 @@
   /* Everything is working */
 
   .nav-container {
-    padding: 12px 12px;
-    /* border: 2px solid green; */
+    padding: 12px 22px;
+    border: 2px solid green;
   }
 
   /* .nav-child:nth-child(2) {
@@ -21,11 +21,21 @@
 
   .nav-three {
     /* border: 2px solid salmon; */
-    gap: 20px;
+    gap: 30px;
+    flex-shrink: 0;
+  }
+
+  .nav-uk{
+    flex-shrink: 0;
+  }
+
+  .nav-nigeria img,
+  .nav-uk img{
+    width: 16px;
   }
 
   .nav-child:nth-child(2) {
-    gap: 30px;
+    gap: 45px;
   }
 
   .nav-text-down {
