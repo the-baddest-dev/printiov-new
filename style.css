@@ -118,6 +118,7 @@ main {
   position: sticky;
   top: 0;
   container-type: scroll-state;
+  z-index: 100;
 }
 
 .printivo-nav {
@@ -131,7 +132,19 @@ main {
 @container scroll-state(stuck:top){
   .printivo-nav{
     background-color: #ffffff;
+    animation: desktop-scroll 0.4s linear;
   }
+  
+  @keyframes desktop-scroll {
+    from{
+      transform: translateY(-100%);
+    }
+
+    to{
+      transform: translateY(0%);
+    }
+  }
+  
 }
 
 .printivo-child:nth-child(1) {
@@ -196,10 +209,10 @@ main {
   position: relative;
 }
 
-.quality-child:nth-child(1){
-  /* border: 2px solid blue; */
-  /* width: 60%; */
-}
+/* .quality-child:nth-child(1){
+  border: 2px solid blue;
+  width: 60%;
+} */
 
 .quality-child:nth-child(1) p:nth-child(1){
   font-family: "DM Serif Display", serif;
@@ -245,14 +258,15 @@ form > button{
   background-color: transparent;
   border: transparent;
   position: absolute;
-  top: 53px;
-  right: 140px;
+  top: 54px;
+  /* right: 140px; */
+  right: 30px;
 }
 
 .quality-child:nth-child(2){
   /* width: 40%; */
   position: absolute;
-  right: -178px;
+  right: 1px;
   bottom: -8px;
 }
 
