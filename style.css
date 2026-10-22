@@ -119,6 +119,7 @@ main {
   top: 0;
   container-type: scroll-state;
   z-index: 100;
+  /* border: 2px solid red; */
 }
 
 .printivo-nav {
@@ -209,10 +210,10 @@ main {
   position: relative;
 }
 
-/* .quality-child:nth-child(1){
-  border: 2px solid blue;
-  width: 60%;
-} */
+.quality-child:nth-child(1){
+  /* border: 2px solid blue; */
+  width: 53%;
+}
 
 .quality-child:nth-child(1) p:nth-child(1){
   font-family: "DM Serif Display", serif;
@@ -235,14 +236,15 @@ form > label{
 }
 
 form > input{
-  width: 650px;
+  /* width: 650px; */
   height: 85px;
-  margin-left: 2px;
+  /* margin-left: 2px; */
   outline: none;
   border: 2px solid #e8e8e8;
   margin-top: 5px;
   padding: 0px 0px 0px 20px;
   font-size: 16px;
+  width: 100%;
 }
 
 form > input::placeholder{
@@ -252,15 +254,16 @@ form > input::placeholder{
 form{
   position: relative;
   /* border: 2px solid yellow; */
+  width: 100%;
 }
 
 form > button{
   background-color: transparent;
   border: transparent;
   position: absolute;
-  top: 54px;
+  top: 55px;
   /* right: 140px; */
-  right: 30px;
+  right: 16px;
 }
 
 .quality-child:nth-child(2){
