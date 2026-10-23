@@ -204,4 +204,22 @@
     grid-template-columns: 1fr;
     gap: 30px;
   }
+
+  .popular-categories {
+    padding: 12px 20px;
+    /* margin: 80px 0; */
+  }
+
+  .categories-child:nth-child(1) h3 {
+    font-size: 20px;
+  }
+
+  .categories-child:nth-child(2) a {
+    font-size: 14px;
+  }
+
+  .categories-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
