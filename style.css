@@ -21,7 +21,7 @@ body {
   max-width: 1527px;
   width: 100%;
   margin: 0 auto;
-  min-height: 3000px;
+  min-height: 5000px;
 }
 
 .nav-container {
@@ -497,7 +497,31 @@ form > button{
   transform: translateX(5px);
 }
 
+.print-shop{
+  padding: 20px 120px 40px 120px;
+  /* border: 2px solid teal; */
+}
 
+.print-shop p:nth-child(1){
+  font-family: "DM Serif Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #384a62;
+  padding-bottom: 8px;
+}
+
+.print-shop p:nth-child(2){
+  font-size: 20px;
+  font-weight: 600;
+  color: #506683;
+  line-height: 140%;
+  width: 650px;
+}
+
+.print-shop > img{
+  /* border: 2px solid chartreuse; */
+  padding-top: 30px;
+}
 
 
 
