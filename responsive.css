@@ -266,4 +266,17 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .amazing{
+    padding: 100px 20px;
+  }
+
+  .amazing > p{
+    font-size: 24px;
+  }
+
+  .amazing-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
 }

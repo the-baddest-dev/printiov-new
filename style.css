@@ -645,6 +645,36 @@ form > button{
   flex-shrink: 0;
 }
 
+.amazing{
+  padding: 80px 120px;
+  background-color: #f7f6f4;
+}
+
+.amazing > p{
+  font-family: "DM Serif Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #384a62;
+}
+
+.amazing-container{
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.amazing-anchor a{
+  color: #384a62;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 10px;
+  display: block;
+}
+
+/* .amazing-image {
+  border: 2px solid blanchedalmond;
+} */
+
 
 
 
