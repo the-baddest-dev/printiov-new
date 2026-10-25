@@ -498,7 +498,7 @@ form > button{
 }
 
 .print-shop{
-  padding: 20px 120px 40px 120px;
+  padding: 20px 120px 70px 120px;
   /* border: 2px solid teal; */
 }
 
@@ -523,6 +523,85 @@ form > button{
   padding-top: 30px;
 }
 
+.customers{
+  border: 2px solid #edf6fd;
+  background-color: #edf6fd;
+  padding: 60px 120px 70px 120px;
+}
 
+.customers > p{
+  font-family: "DM Serif Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #384a62;
+}
+
+.tweets{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  gap: 30px;
+}
+
+.tweets-child{
+  background-color: #ffffff;
+  display: flex;
+  padding: 25px 16px 30px 16px;
+  /* padding: 16px; */
+  border: 1px solid #dee7ed;
+  gap: 20px;
+  /* height: 182px; */
+}
+
+.tweet-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 2px solid purple; */
+}
+
+.tweet-img{
+  border-radius: 50%;
+  border: 2px solid #ece8d9;
+  background-color: #ffffff;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid yellow; */
+  flex-shrink: 0;
+}
+
+.tweet-img img{
+  width: 13px;
+  object-fit: contain;
+}
+
+.amina > span{
+  color: #384a62;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.amina a{
+  color: #1da1f2;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.printivo-amina p{
+  font-size: 15px;
+  color: #384a62;
+  line-height: 150%;
+}
+
+.printivo-amina > p > a{
+  color: #1da1f2;
+  font-size: 15px;
+  text-decoration: none;
+}
 
 

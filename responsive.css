@@ -235,5 +235,15 @@
     width: 400px;
   }
 
+  .customers{
+    padding: 60px 18px 50px 18px;
+  }
 
+  .tweets{
+    flex-direction: column;
+  }
+
+  .tweets-child{
+    padding: 20px 20px 30px 20px;
+  }
 }
