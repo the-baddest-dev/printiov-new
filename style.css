@@ -658,7 +658,7 @@ form > button{
 }
 
 .amazing-container{
-  padding-top: 20px;
+  padding-top: 30px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
