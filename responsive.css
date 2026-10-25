@@ -218,32 +218,52 @@
     font-size: 14px;
   }
 
-  .categories-container{
+  .categories-container {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .print-shop{
+  .print-shop {
     padding: 0px 20px;
     margin-bottom: 150px;
     /* border: 2px solid green; */
     width: 100%;
   }
 
-  .print-shop p:nth-child(2){
+  .print-shop p:nth-child(2) {
     font-size: 16px;
-    width: 400px;
+    /* width: 400px; */
+    width: 100%;
   }
 
-  .customers{
+  .customers {
     padding: 60px 18px 50px 18px;
   }
 
-  .tweets{
+  .tweets {
     flex-direction: column;
   }
 
-  .tweets-child{
+  .tweets-child {
     padding: 20px 20px 30px 20px;
+  }
+
+  .countonus {
+    padding: 100px 20px;
+  }
+
+  .countonus > p {
+    font-size: 24px;
+  }
+
+  .countonus-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .countonus-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

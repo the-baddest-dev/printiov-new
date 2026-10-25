@@ -604,4 +604,47 @@ form > button{
   text-decoration: none;
 }
 
+.countonus{
+  padding: 100px 120px;
+}
+
+.countonus > p{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+  color: #384a62;
+}
+
+.countonus-container{
+  display: flex;
+  padding-top: 15px;
+  gap: 180px;
+}
+
+.countonus-child{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.countonus-text p:nth-child(1){
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 8px;
+  color: #384a62;
+}
+
+.countonus-text p:nth-child(2){
+  font-size: 15.5px;
+  color: #677f9e;
+  line-height: 150%;
+}
+
+.countonus-image{
+  display: flex;
+  flex-shrink: 0;
+}
+
+
+
 
