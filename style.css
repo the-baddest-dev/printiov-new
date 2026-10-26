@@ -21,7 +21,7 @@ body {
   max-width: 1527px;
   width: 100%;
   margin: 0 auto;
-  min-height: 5000px;
+  /* min-height: 5000px; */
 }
 
 .nav-container {
@@ -744,6 +744,28 @@ form > button{
 .footer-innerchild:nth-child(3) h4{
   /* border: 2px solid green; */
   padding-bottom: 22px;
+}
+
+.copyright{
+  text-align: center;
+  padding: 40px 0;
+  background-color: #cbcac8;
+  color: #384a62;
+}
+
+.message{
+  background-color: #f7279e;
+  display: inline-block;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 0px;
+  padding: 10px 18px;
+  left: 10px;
+}
+
+.message > a{
+  text-decoration: none;
+  color: #ffffff;
 }
 
 
